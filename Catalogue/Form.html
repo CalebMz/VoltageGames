@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<title>Sign Up Form</title>
+
+		<!--Internal Styles-->
+		<style>
+			.btn-primary{
+				background-color: red;
+			}
+
+			.btn-primary:hover{
+				background-color: green;
+			}
+
+		</style>
+
+	</head>
+
+	<body style="background-color: #B2BEB5;">
+		<h1>Please fill in the form below</h1>
+		<form>
+			<!--Name block-->
+			<div class="form-group row shadow p-2 mb-5 bg-white rounded">
+				<!--Include this class="col-sm-2 col-form-label" for horizontal-->
+				<label for="inputName" class="col-sm-2 col-form-label">First Name</label> 
+				<!--For horizontal we put <input> in another <div> bracket-->
+				<div class="col-sm-10">
+					<input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="John">
+				</div>
+			</div>
+
+			<!--Surname block-->
+			<div class="form-group row shadow p-2 mb-5 bg-white rounded">
+				<label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
+				<div class="col-sm-10">
+					<input type="lastname" class="form-control" id="inputLastName" aria-describedby="lastnameHelp" placeholder="Doe">
+				</div>
+			</div>
+
+			<!--Email Address block-->
+			<div class="form-group row shadow p-2 mb-5 bg-white rounded">
+				<label for="inputEmail" class="col-sm-2 col-form-label">Email Address</label>
+				<div class="col-sm-10">
+					<input type="emailAddress" class="form-control" id="inputEmail" aria-describedby="emailAddressHelp" placeholder="JohnDoe@gmail.com">
+				</div>
+			</div>
+
+			<!--Password block-->
+			<div class="form-group row shadow p-2 mb-5 bg-white rounded">
+				<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+				<div class="col-sm-10">
+					<input type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp" placeholder="John123$">
+				</div>
+			</div>
+
+			<!--Radio Buttons-->
+			<h4>I want to be kept up to date on gaming through weekly newsletters:</h4>
+			<div class="form-group form-check">
+				<input type="radio" class="form-check-input" id="check">
+				<label class="form-check-label" for="check">Yes</label><br>
+				<input type="radio" class="form-check-input" id="check">
+				<label class="form-check-label" for="check">No</label>
+			</div>
+			<!--Submit Button-->
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+	</body>
+</html>

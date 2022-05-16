@@ -1,0 +1,90 @@
+#MainHeading{
+	color: #1A2127;
+	font-family: "Helvetica";
+}
+
+#mainNav{
+	padding: 15px;
+}
+
+#TableHeading{
+	font-family: "Helvetica";
+}
+
+.navbar{
+	color: darkred;
+}
+
+.nav-link{
+	font-family: "Monaco";
+	text-decoration: none;
+	color: white;
+}
+
+
+/**Changes the color of the nav links in the nav bar when hovered over**/
+.nav-link:hover{
+	color: #1A2127;
+}
+
+/**Set image width and height**/
+img{
+	width: 150px;
+	height: 180px;
+}
+
+/**Change the 1px thumbnail border color**/
+.img-thumbnail{
+	background-color: #1A2127;
+}
+
+/**This causes the image to expand when hovered over it**/
+.img-thumbnail:hover{
+	transition: transform .2s;
+	margin: 0 auto;
+	transform: scale(1.5);
+}
+
+.img-fluid {
+    width: 150px;
+    height: 180px;
+}
+
+hr{
+	border: 5px solid black;
+	border-radius: 5px;
+}
+
+/*Changing button color*/
+.btn-primary{
+	background-color: darkred;
+	border-color: black;
+}
+
+/*Changing button color when hovered over*/
+.btn-primary:hover{
+	background-color: black;
+	color: white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #1A2127;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	top: 0;
+	left: 100px;
+}

@@ -1,0 +1,131 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family: Helvetica;
+}
+
+p{
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #B8B8B8;
+}
+
+#ItemsForm{
+    margin: 0 auto;
+    padding: none;
+    width: 500px;
+    background-color: wheat;
+}
+
+#ClearButton {
+    display: block;
+    border: 2px solid black;
+    background-color: #F2EC7C;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+#ClearButton:hover {
+    background-color: antiquewhite;
+}
+
+#delivery{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #CB6744;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#delivery:hover{
+    background-color: antiquewhite;
+}
+
+#collection:hover{
+    background-color: antiquewhite;
+}
+
+#collection{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #E7A04B;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#couponButton{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #F2EC7C;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#container{
+    text-align: center;
+}
+
+#forms{
+    display: inline;
+}
+
+section{
+    display: grid;
+}
+
+#couponSection{
+    text-align: center;
+}
+
+article{
+    float: left;
+	display: inline-block;
+	margin: 0 auto;
+	width: 32.6%;
+	height: 300px;
+	border: 2px black solid;
+}
+
+article form{
+    text-align: justify;
+    padding: 20px;
+    color: black;
+}
+
+#deliveryForm{
+    background-color: #CB6744;
+}
+
+#collectionForm{
+    background-color: #E7A04B;
+}
+
+#couponForm{
+    background-color: #F2EC7C;
+}
+
+#SubmitButton1:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#SubmitButton2:hover{
+    background-color: black;
+    color: whitesmoke;
+}
